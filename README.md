@@ -1,1 +1,1 @@
-# gan-zoo
+WGAN implementation forthcoming
