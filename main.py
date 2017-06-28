@@ -3,8 +3,24 @@ import argparse
 import tensorflow as tf
 
 
+class Generator(object):
+	def __init__(self, activation=tf.nn.relu):
+		self.z = tf.random_uniform([batch_size])
+
+
+	def sample(self):
+		pass
+
+
+class Critic(object):
+	def __init__(self, images):
+		pass
+
+
 def main(args):
-	pass
+	generator = Generator()
+	generator_samples = generator.sample()
+	critic = Critic()
 
 
 if __name__ == '__main__':
